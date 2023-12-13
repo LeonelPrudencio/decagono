@@ -2,7 +2,7 @@
 puntos <- read.table("puntos_decagono.txt", sep = ",", header = FALSE)
 colnames(puntos) <- c("X", "Y")
 
-# Crea un gráfico de dispersión con la biblioteca base
+# Crea un gráfico con la biblioteca base
 plot(puntos$X, puntos$Y, main = "Decágono", xlab = "Coordenada X", ylab = "Coordenada Y", pch = 16, col = "blue")
 
 # Conecta los puntos para formar un decágono
