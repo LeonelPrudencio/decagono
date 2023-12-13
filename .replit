@@ -1,0 +1,4 @@
+run = "g++ -o ejecutable_cpp main.cpp && ./ejecutable_cpp"
+
+[nix]
+channel = "stable-22_11"
